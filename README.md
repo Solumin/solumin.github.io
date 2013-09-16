@@ -1,4 +1,4 @@
-solumin.github.io
-=================
+~teddy $ sudol writes/
+===
 
-The home of tsudol.com, as a github pages site.
+Source for tsudol.com.
