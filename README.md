@@ -1,4 +1,4 @@
 ~teddy $ sudol writes/
 ===
 
-Source for tsudol.com.
+Source for [tsudol.com](tsudol.com).
