@@ -2,8 +2,6 @@
 layout: post
 title: "Hello, world!"
 date: 2012-06-03 20:06
-comments: false
-categories: 
 ---
 
 Hello! Welcome to my blog. This is the second version of my blog. The first one was hosted on Wordpress.com, but I did not like having no control over the layout and other aspects of the blog. The ever-mysterious Timothy Honeywell both introduced me to Octopress (the blogging framework that I now use) and kindly offered to host me on his Dreamhost account.

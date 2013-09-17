@@ -2,8 +2,6 @@
 layout: post
 title: "The First Week: A Recap"
 date: 2012-06-6 20:47
-comments: true
-categories: REU
 ---
 
 So it's the middle of week 2 of the 10-week REU program. What better time to write about week 1?
