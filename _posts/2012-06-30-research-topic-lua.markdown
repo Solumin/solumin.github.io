@@ -2,8 +2,6 @@
 layout: post
 title: "Research Topic: Lua"
 date: 2012-06-30 20:10
-comments: true
-categories:
 ---
 
 I was considering continuing the "week in review" format for my posts, but I realized that isn't exactly feasible. Frankly, all of my weeks are going to look the same, bar the few interesting events that would deserve their own posts. Instead, I'm just going to do topic posts! Today I'm going to talk about part of my research: The Lua scripting language.
