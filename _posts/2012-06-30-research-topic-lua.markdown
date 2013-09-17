@@ -2,8 +2,6 @@
 layout: post
 title: "Research Topic: Lua"
 date: 2012-06-30 20:10
-comments: true
-categories: 
 ---
 
 I was considering continuing the "week in review" format for my posts, but I realized that isn't exactly feasible. Frankly, all of my weeks are going to look the same, bar the few interesting events that would deserve their own posts. Instead, I'm just going to do topic posts! Today I'm going to talk about part of my research: The Lua scripting language.
@@ -75,11 +73,11 @@ First, I'm going to talk about the basic features of Lua--syntax, variable types
 
 Wikipedia describes Lua as a "lightweight multi-paradigm programming language designed as a scripting language." "Lightweight" means either minimalist syntax--few special operators, things like that--or a small memory footprint. Lua arguably leans toward the latter definition, though it does have a rather light syntax. For example, compound operators like "+=" are not present in Lua; instead, the full expression must be used ("a += b" becomes "a = a + b"). Another example of the lighter syntax is the lack of increment and decrement operators:
 
-{% codeblock Basic Lua Syntax %}
+```lua
 a = 2
 b = 3
 c = a-- * b++
-{% endcodeblock %}
+```
 
 In C, the variable c would have the value of 4: `c = (a - 1) * (b + 1) = 1 * 4 = 4`. In Lua, c would have the value of 2 because `--` indicates the start of a comment! The program would ignore everything after the `--`, so the line just says "c = a". (One of the first things to learn about any new language is its comments. In Lua, `--` marks a single-line comment. `--[[` marks the beginning of a block comment and `--]]` ends it. This incorporates a rather nifty feature: `---[[` nullifies the block comment by turning it into a line comment, so you can comment and uncomment whole blocks of code with a single keystroke!)
 
